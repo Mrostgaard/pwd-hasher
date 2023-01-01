@@ -1,0 +1,83 @@
+@import "../styles/fonts";
+@import "../styles/reset";
+@import "../styles/variables";
+
+body {
+  color: $black;
+  background-color: $greyWhite;
+}
+
+
+#popup {
+  min-width: 350px;
+  padding: 30px 20px;
+
+  h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .headline {
+  }
+
+  .i-headline {
+    text-align: center;
+    text-decoration: underline;
+  }
+  .input {
+    height: 40px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 3px;
+    background-color: initial;
+    text-decoration: none;
+  }
+
+  #options__button {
+    // width: 50%;
+    // background: green;
+    // color: white;
+    background-color: #f3f3f3;
+    font-weight: 500;
+    border-radius: 15px;
+    padding: 5px 10px;
+    justify-content: center;
+    // margin: 20px auto;
+    opacity: 0.8;
+    display: flex;
+    position: absolute;
+    top: 26px;
+    right: 20px;
+  }
+
+  .button {
+    cursor: pointer;
+    background-color: #f3f3f3;
+    border-radius: 15px;
+    padding: 5px 10px;
+    justify-content: center;
+    opacity: .8;
+    display: flex;
+  }
+  .button:hover {
+    background-color: #a29e9e !important;
+  }
+  .links__holder {
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+    display: flex;
+    ul {
+      justify-content: space-around;
+
+      li {
+        button {
+          font-size: 20px;
+          font-weight: 600;
+          padding: 10px 17px;
+        }
+      }
+    }
+  }
+}
